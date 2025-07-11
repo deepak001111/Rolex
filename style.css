@@ -1,0 +1,84 @@
+body, h1, h2, h3, h4, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #0c1d2d;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e0eaf5;
+}
+
+header h1 {
+  font-family: 'Georgia', serif;
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #0c1d2d;
+}
+
+header p {
+  font-size: 18px;
+  color: #333;
+}
+
+section {
+  padding: 30px 20px;
+}
+
+section h2 {
+  font-family: monospace;
+  color: #0c1d2d;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.watch-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-family: 'Lucida Handwriting', cursive;
+  color: #f0c14b;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.watch-card p {
+  color: #555;
+  font-size: 16px;
+}

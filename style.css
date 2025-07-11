@@ -1,4 +1,4 @@
-body, h1, h2, h3, h4, p, ul {
+body, h1, h2, h3, h4, p {
   margin: 0;
   padding: 0;
 }
@@ -8,21 +8,6 @@ body {
   background-color: #f9f9f9;
   color: #333;
   line-height: 1.6;
-}
-
-nav {
-  background-color: #0c1d2d;
-  padding: 10px 0;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-}
-
-nav ul li {
-  margin: 0 15px;
 }
 
 header {
